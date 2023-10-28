@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.left{
+    background-color: #FF8295;
+    color: white;
+    display:block;
+    width: 35%;
+}
+.content{
+    margin-left:20%;
+    margin-top: 10%;
+}
+.right{
+    display:block;
+    /* border:solid rgb(0, 0, 0) 2px; */
+    border-radius: 5px;
+    width: 65%;
+    
+}
+.head{
+    color: black;
+    margin-bottom: 50px;
+}
+.or{
+    margin-left: 36%;
+    margin-top: 5%;
+}
+.container{
+    display:flex;
+    height: 100vh;
+    
+}
+.gimg{
+    width: 25px;
+    margin-left: -20px;
+    margin-right: 10px;
+
+}
+.btn{
+    padding:15px 35px;
+    color: black;
+    background-color:white;
+    font-size: 20px;
+    margin-right: 5%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#fname, #email {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000; /* Adjust the line width as needed */
+    width: 150%; /* Adjust the input field width as needed */
+}
+
+.form{
+    font-size: 50px;
+    width: 50%;
+}
+.logbtn{
+    margin-top: 12%;
+    width: 151%;
+    background-color: #FF8295;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #FF8295;
+    padding: 3% 30%;
+    cursor: pointer;
+}
+.h2tag
+{
+   margin-top: 20%;
+}
+.applogo{
+    width: 8%;
+    padding: 15px;
+}
+.phone{
+    margin-left: 5%;
+    width: 130%;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000; /* Adjust the line width as needed */
+    width: 150%; /* Adjust the input field width as needed */
+  }
+  
+  #password {
+    font-size: 16px;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-right: 10px; /* Adjust the padding as needed to separate the icon */
+    padding-top: 5%;
+
+  }
+  
+  .eye {
+    font-size: 18px; /* Adjust the size as needed */
+     cursor: pointer;
+  }
+  
+p{
+    font-weight: normal;
+}
+span{
+    color: #FF8295;
+}
+span:hover{
+    color:#ff5d75;
+    cursor: pointer;
+}
